@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    height: 100vh;
+    background: #9f8ac0;
+    margin: 0;
+    min-width: 250px;
+}
+
+
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+.ToDoList {
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;  
+    color: #7b52bd;
+}
+
+
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #7b52bd;
+    font-weight: 800;
+    
+    border-radius: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color:#7b52bd;
+}
+
+
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #7b52bd;
+    border: none;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+#myUL{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+    line-break: 30px;
+}
+
+
+.addBtn{
+    padding: 12px;
+    margin-right: 28px;
+    width: 120px;
+    background: #7b52bd;
+    color: white;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+ul li {
+    background: #7b52bd;
+    color: white;
+    height: 40px;
+    padding-top: 12px;
+    margin-top: 10px;
+    list-style-type: none;
+  }
+  
+  ul li.checked {
+    background: #9f8ac0;
+    color: #7b52bd;
+    text-decoration: line-through;
+  }
+  
+  .close {
+    position:fixed;
+    cursor: pointer;
+    left: 700px;
+    color: white;
+  }
+  
